@@ -1,0 +1,3 @@
+@tailwind base; /* Browser resets */
+@tailwind components; /* Reusable components */
+@tailwind utilities; /* All utility classes */

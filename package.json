@@ -1,0 +1,21 @@
+{
+  "name": "twitter-clone-tailwind",
+  "version": "1.0.0",
+  "description": "A responsive Twitter/X.com UI clone built with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "dev": "vite"
+  },
+  "keywords": ["tailwind", "twitter-clone", "css", "frontend"],
+  "author": "Mayur Dhanurkar",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "vite": "^7.3.1"
+  },
+  "devDependencies": { 
+    "tailwindcss": "^3.4.19"
+  }
+}
